@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title></title>
-	<script src='./js/js1.js' type="text/javascript" charset="UTF-8"></script>
+	<!-- <script src='./js/js1.js' type="text/javascript" charset="UTF-8"></script> -->
     <link rel="stylesheet" type="text/css" href="./css/css1.css"/>
-	// <script type="text/javascript">
+	<script type="text/javascript">
     	
    		document.addEventListener('plusready', function(){
    			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
@@ -18,20 +18,30 @@
 
 <body>
 	<div class="top">
-		<div class="top-box-content">
-			朋友
-		</div>
+		<div class="top-font">朋友</div>
 		<div class="top-box"> 
-			<img class="top-img" src="img/soyiso.png" > 
-			<img class="top-img" src="img/contact.png" > 
-			<img class="top-img" src="img/add.png" > 
+			<img id="top-img1" class="top-img" src="img/soyiso.png" > 
+			<img id="top-img2" class="top-img" src="img/contact.png" > 
+			<img id="top-img3" class="top-img" src="img/add.png" > 
 		</div>
 		
 	</div>
 	
-	<div id="sheet1" class="mui-popover">
+	<div class="recommend">
+		<div id="recommend1">
+			<img class="recommend-img" src="img/friends_icon1.png" >
+		</div>
+		<div id="recommend2">
+			<img class="recommend-img" src="img/friends_icon2.png" >
+		</div>
+		<div id="recommend3">
+			<img class="recommend-img" src="img/friends_icon3.png" >
+		</div>
+	</div>
+	
+	<div id="sheet1" class="conten">
 		<!-- 可选择菜单 -->
-		<ul class="mui-table-view">
+		<ul class="conten">
 		  <li class="mui-table-view-cell">
 			<a href="#">菜单1</a>
 		  </li>
